@@ -70,13 +70,13 @@ hold off
 
 
 %***************CALLING*FUNCTION*TO*3D-PLOT*SATALLITE*TRAJECTORY***********
-my3dOrbit(SAT,delT,Orbits);
+my3dOrbitPlot(SAT,delT,Orbits);
 %OUTPUT:
 % 3D figure of Satellite/Spacecraft's Orbit around the rotating earth with
 % Satellite/Spacecraft's orbit visulazation 
 
 %***************CALLING*FUNCTION*TO*PLOT*GROUNDTRACK*OF*SATALLITE**********
-GroundTrack( SAT,delT,inc,Orbits);
+myGroundTrack( SAT,delT,inc,Orbits);
 %OUTPUT: 
 % Ground Track
 % i.e. Figure of path directly below satellite/spacecraft
